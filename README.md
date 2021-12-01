@@ -4,7 +4,6 @@
 - Added additional functionality for adding vaccination slots from admin side.
 - **Working** on adding additional funtionality of booking and viewing slots for vaccination from user side.
 
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
 ## Development server
