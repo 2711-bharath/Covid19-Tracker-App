@@ -26,7 +26,27 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The UI looks like - 
+
+- Country-wise Covid Cases
+
+![image](https://user-images.githubusercontent.com/54592001/144295800-4da53399-2e1d-4085-a756-b406323ddf1d.png)
+
+- Sign-in 
+
+![image](https://user-images.githubusercontent.com/54592001/144295961-3e5dbc75-f525-4083-946e-fd0e89757b05.png)
+
+- Sign-up
+
+![image](https://user-images.githubusercontent.com/54592001/144296015-1565d997-6997-482f-952a-7b0fba3bc92b.png)
+
+- Precautions
+
+![image](https://user-images.githubusercontent.com/54592001/144296070-e8b9aa25-3066-4bfd-bc0a-3de0f0c2a7dc.png)
+
+- Admin Side
+
+![image](https://user-images.githubusercontent.com/54592001/144296211-7249753a-6404-4201-93a4-6616d245f2fb.png)
+
 
