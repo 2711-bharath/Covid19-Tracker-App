@@ -1,0 +1,27 @@
+h5 {
+    display: inline; 
+}
+
+.fa-check {
+    background: lightgreen;
+    padding: 5px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.fa-exclamation-circle {
+    font-size: 32px;
+    background: #fff;
+}
+
+.image {
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    top: 75px;
+}
+
+ul{
+    list-style-type: circle;
+    font-weight: 500;
+}

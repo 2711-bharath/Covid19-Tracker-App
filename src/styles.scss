@@ -1,0 +1,80 @@
+/*You can add global styles to this file, and also import other style files*/
+@import '~ngx-toastr/toastr.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: rgb(241, 241, 241);
+}
+
+.special-text {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    line-height: 1.2px;
+    letter-spacing: 0.08rem;
+}
+
+.text-transparent {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    font-style: inherit;
+}
+
+.table {
+    th, td{    
+        font-size: 15px;
+        font-weight: 600;
+    }
+    thead, tbody {
+        overflow-x: scroll;
+    }
+    tr {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+    }
+
+    span {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.text-status {
+    font-size: 24px;
+}
+
+.display-6{
+    font-size: 1.2em;
+}
+
+.shadow {
+    box-shadow: 1px 3px 2px rgb(141, 140, 140);
+}
+
+.card-target {
+    background: #fff;
+}
+
+.card{
+    border-radius: 10px;
+
+    .card-title {
+        margin-top: 10px;
+        font-size: 0.9rem;
+        text-transform: uppercase !important;
+        letter-spacing: 0.0625rem;
+    }
+    
+    .card-text {
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

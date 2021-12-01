@@ -1,0 +1,83 @@
+<div class="container mb-2">
+      
+    <h1 class="special-text text-secondary mb-2">ADD SLOTS FOR AVAILABILITY OF VACINES</h1>
+
+    <form [formGroup]="slotForm" (ngSubmit) ="submit(slotForm.value)" >
+      <mat-form-field class="example-full-width">
+        <input matInput [min]="minDate" [max]="maxDate" [matDatepicker]="picker" placeholder="Choose a date" formControlName="availabilityDate">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota1" class="form-label"><span class="text-secondary">Slot-1 Time</span> 8:00 - 9:00</label>
+            <input type="number" class="form-control" id="quota1" formControlName="quota1">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota2" class="form-label"><span class="text-secondary">Slot-2 Time</span> 9:00 - 10:00</label>
+            <input type="number" class="form-control" id="quota2" formControlName="quota2">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota3" class="form-label"><span class="text-secondary">Slot-3 Time</span> 10:00 - 11:00</label>
+            <input type="number" class="form-control" id="quota3" formControlName="quota3">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota4" class="form-label"><span class="text-secondary">Slot-4 Time</span> 11:00 - 12:00</label>
+            <input type="number" class="form-control" id="quota4" formControlName="quota4">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota5" class="form-label"><span class="text-secondary">Slot-5 Time</span> 12:00 - 13:00</label>
+            <input type="number" class="form-control" id="quota5" formControlName="quota5">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota6" class="form-label"><span class="text-secondary">Slot-6 Time</span> 13:00 - 14:00</label>
+            <input type="number" class="form-control" id="quota6" formControlName="quota6">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota7" class="form-label"><span class="text-secondary">Slot-7 Time</span> 14:00 - 15:00</label>
+            <input type="number" class="form-control" id="quota7" formControlName="quota7">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota8" class="form-label"><span class="text-secondary">Slot-8 Time</span> 15:00 - 16:00</label>
+            <input type="number" class="form-control" id="quota8" formControlName="quota8">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota9" class="form-label"><span class="text-secondary">Slot-9 Time</span> 16:00 - 17:00</label>
+            <input type="number" class="form-control" id="quota9" formControlName="quota9">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota10" class="form-label"><span class="text-secondary">Slot-10 Time</span> 17:00 - 18:00</label>
+            <input type="number" class="form-control" id="quota10" formControlName="quota10">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label for="quota11" class="form-label"><span class="text-secondary">Slot-11 Time</span> 18:00 - 19:00</label>
+            <input type="number" class="form-control" id="quota11" formControlName="quota11">
+          </div>
+        </div>  
+      </div>
+
+      <input type="submit" class="btn btn-submit" [disabled]="slotForm.invalid" value="Add Slot">
+      <div class="text-primary mt-2" *ngIf="slotForm.invalid"><i class="fas fa-info-circle"></i> Button will be disabled until you fill all the entries</div>
+    </form>
+</div>

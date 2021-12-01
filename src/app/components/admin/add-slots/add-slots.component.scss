@@ -1,0 +1,17 @@
+.btn {
+    color: deeppink;
+
+    &-submit {
+        border: 1px solid deeppink;
+    }
+
+    &-submit:hover {
+        background: deeppink;
+        color: #fff;
+    }
+}
+
+.errormsg {
+    font-size: 12px;
+    color: red;
+}

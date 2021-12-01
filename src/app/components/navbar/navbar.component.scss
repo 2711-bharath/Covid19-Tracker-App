@@ -1,0 +1,52 @@
+.slot {
+    border-bottom: 3px solid deeppink;
+    a {
+        color: deeppink;
+    }
+    a:hover {
+        color: deeppink;
+    }
+    a:active {
+        color: deeppink;
+    }
+    a:visited {
+        color: deeppink;
+    }
+}
+
+.login {
+    border-bottom: 3px solid #963CBDFF;
+    a {
+        color: #963CBDFF;
+    }
+    a:hover {
+        color: #963CBDFF;
+    }
+    a:active {
+        color: #963CBDFF;
+    }
+    a:visited {
+        color: #963CBDFF;
+    }
+}
+
+.register {
+    border-bottom: 3px solid #00239CFF;
+    a {
+        color: #00239CFF;
+    }
+    a:hover {
+        color: #00239CFF;
+    }
+    a:active {
+        color: #00239CFF;
+    }
+    a:visited {
+        color: #00239CFF;
+    }
+}
+
+.logout {
+    color: #00239CFF;
+    cursor: pointer;
+}
